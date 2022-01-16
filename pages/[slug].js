@@ -11,10 +11,11 @@ export default function App({}) {
 
       <Box
         sx={{
-          maxWidth: '600px',
+          width: '600px',
           mx: 'auto',
           bg: 'sunken',
           p: 3,
+          maxWidth: '95vw',
           borderRadius: 4
         }}
       >
@@ -40,9 +41,10 @@ export default function App({}) {
       >
         Download Poster
       </Button>
-      <iframe
+      <Box
+        as="iframe"
         src={`${router.query.slug?.toUpperCase()}.pdf`}
-        style={{ height: '90vh', width: '40vw', margin: 'auto' }}
+        sx={{ height: ['400px', '800px'], width: '600px', maxWidth: '95vw', margin: 'auto' }}
       />
     </Grid>
   )
