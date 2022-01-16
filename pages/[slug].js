@@ -35,13 +35,13 @@ export default function App({}) {
       <Button
         as="a"
         download
-        href={`/${router.query.slug}.pdf`}
+        href={`/${router.query.slug.toUpperCase()}.pdf`}
         sx={{ width: 'fit-content', margin: 'auto', borderRadius: 4 }}
       >
         Download Poster
       </Button>
       <iframe
-        src={`${router.query.slug}.pdf`}
+        src={`${router.query.slug.toUpperCase()}.pdf`}
         style={{ height: '90vh', width: '40vw', margin: 'auto' }}
       />
     </Grid>
