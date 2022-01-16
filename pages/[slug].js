@@ -22,7 +22,7 @@ export default function App({}) {
           The Innovation Challenge
         </Link>{' '}
         is an entrepreneurship competition designed for secondary students in
-        APAC. It is funded through a{' '}
+        APAC. It is being ran by the <Link target="_blank" href="https://bank.hackclub.com/the-innovation-circuit">Innovation Circuit</Link>, a nonprofit founded by students in Singapore. It is funded through a{' '}
         <Link target="_blank" href="https://www.ibo.org/programmes/middle-years-programme/dr-siva-kumari-myp-student-innovators-grant/dr-siva-kumari-myp-student-innovators-grant-finalists-2021/">
           MYP Innovator's Grant
         </Link>{' '}
