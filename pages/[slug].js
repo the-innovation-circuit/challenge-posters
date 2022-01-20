@@ -1,5 +1,6 @@
 import { Box, Container, Grid, Flex, Heading, Button, Link } from 'theme-ui'
 import { useRouter } from 'next/router'
+import Script from 'next/script'
 
 export default function App({}) {
   const router = useRouter()
@@ -8,7 +9,10 @@ export default function App({}) {
       <Heading as="h1" sx={{ fontSize: 5 }}>
         Innovation Challenge
       </Heading>
-
+      <Script
+        data-website-id="4c74dc5f-186c-4ec7-82b4-d25a88da9690"
+        src="https://analytics.sampoder.com/umami.js"
+      />
       <Box
         sx={{
           width: '600px',
